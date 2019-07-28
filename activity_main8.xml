@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+
+    tools:context=".Main8Activity">
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pawprint" />
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="Please enter the following details :" />
+
+    <EditText
+        android:paddingTop="50dp"
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="email address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Emergency Contact Phone number "
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="Please Choose an Accuracy level for your monitor from 1-5 (1 being the most accurate) :" />
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</ScrollView>
+
